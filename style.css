@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     /* overflow: hidden; */
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 body {
     background: #eee;
@@ -45,6 +46,14 @@ nav {
 @media screen and (max-width: 414px) {
     nav {
         text-align: center;
+        display: block;
+    }
+}
+.br414{
+    display: none;
+}
+@media screen and (max-width: 414px) {
+    .br414 {
         display: block;
     }
 }
@@ -106,12 +115,17 @@ nav > a:hover{
     }
 }
 @media screen and (max-width: 414px) {
-    .new {
-        /* display: block;
-        padding: 50px 0; */
-    }
     .nav-link{
         text-align: center !important;
+    }
+}
+.h3414{
+    font-weight: bold;
+}
+@media screen and (max-width: 414px) {
+    .h3414{
+        text-align: center ;
+        
     }
 }
 .nav-link.active{
